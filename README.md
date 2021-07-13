@@ -2,7 +2,7 @@
 In this problem, I work with the Breast Cancer Wisconsin (Diagnostic) dataset. The dataset contains thirty features, and they are obtained from a digitized image of a fine needle aspirate (FNA) of a breast mass. The rows are labeled as M and B, where M stands for Malignant and B for Benign. The purpose of this project is the prediction of the type of the cancer (M and B) using three classification models: Logistic Regression (LR), Support Vector Machine (SVM), and XGBOOST. Here is the link to the dataset: https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
 
 # Data Cleaning
-The dataset contains a column (Unnamed) with NaN values which needs to be removed. We checked the outliers and removed the rows below 10% quantile and above 90% quantile. 
+The dataset contains a column (Unnamed) with NaN values which needs to be removed. We checked the outliers and removed the rows below 11% quantile and above 89% quantile. 
 Using feature selection method and checking the cross-correlations between the features, we selected eight features in our models. 
 
 # Models:
